@@ -5,41 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="./resources/fontawesome-free-5.11.2-web/css/all.css">
+    <link rel="stylesheet" href="./fontawesome-free-5.11.2-web/css/all.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <i class="fas fa-cloud-sun"></i>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg  bg-light">
+      <i class="fas fa-cloud-sun" id="logo"></i>
         <a class="navbar-brand" href="#">Weather</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#" id="home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Hourly weather</a>
+              <a class="nav-link" href="#" id="hourly-weather">Hourly weather</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#" id="about">About</a>
             </li>
-           
           </ul>
         </div>
       </nav>
+  </div>
+    
 
-    <div id="home-page">
-
+    <div id="home-page" class="pages">
+      <div class="welcome-msg">
+        <h1 id="welcome-header">Welcome</h1>
+        <p id="welcome-paragraph">See the weather forecast for Skopje</p>
+      </div>
     </div>
-    <div id="hourly-weather-page"></div>
 
-    <div id="about-page"></div>
+    <div id="hourly-weather-page" class="pages">
+      
+    </div>
+
+    <div id="about-page" class="pages">
+      
+    </div>
 
 
 
