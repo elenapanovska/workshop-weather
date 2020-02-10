@@ -1,29 +1,44 @@
+body {
+    /* background: url('./assets/11.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+    background-image: linear-gradient(to right,#a4dae7, #46bddb, #4b74e2);
+
+}
+
+
 #logo{
     color: yellow;
     font-size: 34px;
 }
-.navbar-nav {
+.navbar-nav{
     display: flex;
-    justify-content: center;
-    align-content: center;
     align-items: center;
-    margin-left: 290px;
-    color: aliceblue;
+    justify-content: space-evenly;
+    margin-left: 215px;
+    color: rgb(13, 77, 133);
     
 }
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
 .navbar-brand{
-    padding-left: 10px;
+    padding-left: 20px;
     color:rgb(52, 135, 212); ;
 }
 a {
-    color: rgb(136, 147, 156);
-    font-size: 18px;
+    color: rgb(11, 87, 122);
+    font-size: 24px;
 }
 
 #welcome-header{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 50px;
     color: rgb(52, 135, 212);
 }
 #welcome-paragraph {
@@ -33,3 +48,22 @@ a {
     color: rgb(52, 135, 212);
     font-size: 32px;
 }
+.table {
+    width: 70%;
+    margin-left: 290px;
+    margin-top: 100px;
+    
+}
+
+/* Weather card*/
+
+.weather-card{
+    width: 70%;
+    height: auto;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+ }
